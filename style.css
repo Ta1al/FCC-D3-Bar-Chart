@@ -1,0 +1,34 @@
+body {
+  padding-top: 5vh;
+  background-color: rgb(116, 116, 116);
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.chart-holder {
+  background-color: darkgoldenrod;
+  box-shadow: 0 0 25px black;
+  border-radius: 5px;
+  padding: 5vh 5vh;
+}
+
+svg {
+  background-color: darkgoldenrod;
+  overflow: visible;
+}
+.tooltip {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: grey;
+  padding: 10px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}
+
+.bar:hover {
+  fill: yellow;
+}
