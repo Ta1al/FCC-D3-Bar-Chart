@@ -28,7 +28,6 @@ function Chart({ data, width, height, barWidth }) {
   }, [data]);
 
   const createChart = () => {
-    console.log("hey");
     const d = data.map((a) => a[1]);
     const y = data.map((a) => new Date(a[0]));
 
